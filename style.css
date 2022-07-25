@@ -1,0 +1,148 @@
+.container {
+	position: center;
+	top: 20px;
+	display: flex;
+	flex-direction: column;
+
+	max-width : 1200px;	
+	margin: auto;
+	border: 2px solid black;
+	padding: 20px;	
+
+	background-color: lightseagreen;
+
+}
+
+.header {
+	margin: 10px;
+	padding: 10px;
+
+	background-color: rgb(232, 202, 241);
+}
+
+.menu {
+	margin: 10px;
+	border: 2px solid black;
+	
+	background-color: crimson;
+}
+
+.top-nav{
+	display: grid;
+	grid-template-columns: 25% 50%  25%;
+
+	padding: 10px 20px;
+}
+
+.top-nav li{
+	display: flex;
+	flex-direction: row;
+	
+	list-style: none;
+	margin: 10px;
+	border: 2px solid black;
+	padding: 10px;
+
+	background-color: rgb(252, 175, 211);
+	color: rgb(216, 0, 83);
+}
+
+.header .box1{
+	margin: 10px;
+	border: 2px solid black;
+	padding: 20px;
+
+	background-color: lightcoral;
+}
+
+.header .box1 div {
+	margin: 10px;
+	border: 2px solid black;
+	padding: 10px;
+
+	background-color: lightyellow;;
+}
+
+.main {
+	display: flex;
+	flex-direction: row;
+  	
+	margin: 10px;
+	padding: 10px;
+
+	background-color: beige;
+}
+
+.main .box2 {
+	margin: 10px;
+	border: 2px solid black;	
+	padding: 20px;
+	flex-basis: 50%;
+	
+	background-color: lightblue;
+}
+
+.main .box2 .inbox1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+
+	display: grid;
+	grid-template-columns: 50% 50%;
+
+}
+
+.inbox1 div{
+	margin: 10px;
+	border: 2px solid black;
+	padding: 10px;
+
+	background-color: lightyellow;
+}
+
+.main .box2 .inbox2 {
+	display: flex;
+	justify-content: center;
+	
+	margin: 10px;
+	border: 2px solid black;
+	padding: 10px;
+
+	background-color: lightyellow;
+}
+
+.main .myaside {
+	display: flex;
+	flex-direction: column;
+
+	margin: 10px;
+	border: 2px solid black;	
+	padding: 20px;
+	flex-basis: 50%;
+	
+	background-color: lightblue;
+}
+
+.myaside div{	
+	margin: 10px;
+	border: 2px solid black;
+	padding: 10px;
+
+	background-color: lightyellow;;
+}
+
+.footer {
+	margin: 10px;
+	padding: 10px;
+
+	background-color: crimson;
+}
+
+.footer .box3{
+	margin: 10px;
+	border: 2px solid black;	
+	padding: 20px;
+	
+	background-color: lightgreen;
+}
+	
